@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenFusion - Fuse Images, Spark Creativity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="overlay" id="overlay"></div>
+    <div class="container">
+        <header class="fade-in">
+            <div class="logo">
+                <img src="/img/GenFusion Logo.svg" alt="GenFusion Logo">
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" title="Open mobile menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" style="border-bottom: 2px solid #333;">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+                <a href="#" class="btn header-btn">Get Started</a>
+            </nav>
+        </header>
+
+        <section id="home" class="hero fade-in">
+            <div class="hero-content">
+                <h1>Fuse Images.<br>Spark Creativity.</h1>
+                <p>Upload multiple images, add a prompt, and let GenFusion turn your vision into a stunning AI-generated masterpiece — no design skills needed.</p>
+                <a href="#" class="btn btn-purple">Get Started</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/img_1.png" alt="Hero Image">
+            </div>
+        </section>
+
+        <section id="features" class="feature fade-in">
+            <div class="feature-image">
+                <img src="img/img_2.png" alt="Feature 1 Image">
+            </div>
+            <div class="feature-content">
+                <h2>Real Magic: Fusing Imagination and Reality</h2>
+                <p>GenFusion brings your creative ideas to life by merging reference images into one seamless composition guided by your prompt. In this example, the prompt was...</p>
+            </div>
+        </section>
+
+        <section class="feature feature-reverse fade-in">
+            <div class="feature-image">
+                <img src="img/img_3.png" alt="Feature 2 Image">
+            </div>
+            <div class="feature-content">
+                <span class="coming-soon">Coming Soon</span>
+                <h2>Ghibli-Style AI Art</h2>
+                <p>Imagine your references reimagined in Studio Ghibli's enchanting art style. With our upcoming Ghibli Mode, you'll be able to generate whimsical, painterly outputs using the same fusion workflow.</p>
+            </div>
+            
+        </section>
+
+        <section class="feature-cards fade-in">
+            <div class="feature-card">
+                <div class="feature-card-icon">
+                    <i class="fas fa-photo-video" style="font-size: 40px; color: #666;"></i>
+                </div>
+                <h3>Support</h3>
+                <p>Supports 1-3 reference images</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-card-icon">
+                    <i class="fas fa-sliders-h" style="font-size: 40px; color: #666;"></i>
+                </div>
+                <h3>Custom</h3>
+                <p>Prompt-based customization</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-card-icon">
+                    <i class="fas fa-hourglass-half" style="font-size: 40px; color: #666;"></i>
+                </div>
+                <h3>Coming soon</h3>
+                <p>Imagine your references re-imagined in Studio Ghibli's enchanting art style</p>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing fade-in">
+            <div class="pricing-header">
+                <h2>Get the right plan<br>for future product.</h2>
+            </div>
+            <div class="pricing-plans">
+                <div class="pricing-plan">
+                    <h3 class="plan-name">Starter</h3>
+                    <div class="plan-price">Free</div>
+                    <ul class="plan-features">
+                        <li>10 AI fusions/month</li>
+                        <li>2 image inputs</li>
+                    </ul>
+                    <a href="#" class="btn btn-purple">Get Started</a>
+                </div>
+                <div class="pricing-plan plan-highlight">
+                    <h3 class="plan-name">Premium</h3>
+                    <div class="plan-price">₹29<span class="plan-period">/month</span></div>
+                    <ul class="plan-features">
+                        <li>100 fusions/month</li>
+                        <li>Save history</li>
+                        <li>Use up to 4 images</li>
+                        <li>Priority processing</li>
+                    </ul>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+                <div class="pricing-plan">
+                    <h3 class="plan-name">Pro</h3>
+                    <div class="plan-price">₹80<span class="plan-period"> for 3 month</span></div>
+                    <ul class="plan-features">
+                        <li>300 fusions/3 months</li>
+                        <li>Early access to new features</li>
+                        <li>Ghibli & other styles</li>
+                    </ul>
+                    <a href="#" class="btn btn-purple">Get Started</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta" id="get-started">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeIn">Ready to Get Started for Free?</h2>
+            <p class="animate__animated animate__fadeIn">Sign up now and explore the power of GenFusion without any cost.</p>
+            <a href="#home" class="btn btn-secondary btn-large animate__animated animate__pulse animate__infinite animate__slower">Get Started Free</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://t.me/tanoticoder" class="social-icon" target="_blank" aria-label="Telegram" rel="noopener">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://www.instagram.com/tanoti_coder" class="social-icon" target="_blank" aria-label="Instagram" rel="noopener">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61571750796226" class="social-icon" target="_blank" aria-label="Facebook" rel="noopener">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="mailto:tanoticoder@gmail.com" class="social-icon" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Tanoti Coder. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
